@@ -23,8 +23,8 @@ local MAX_HOP_ATTEMPTS = 99999
 -- *** CAMBIAR ESTA URL A TU CORE SERVER ***
 local CORE_SERVER_URL = "https://tu-core-server.up.railway.app"
 
-local API_URL_GET = CORE_SERVER_URL .. "/get-server"
-local API_URL_VISIT = CORE_SERVER_URL .. "/report-visit"
+local API_URL_GET = CORE_SERVER_URL .. "https://hikarupoornigga.up.railway.app/get-server"
+local API_URL_VISIT = CORE_SERVER_URL .. "https://hikarupoornigga.up.railway.app/report-visit"
 local API_URL_ADD = "https://hika.up.railway.app/forward"  -- Mantener para reportar hallazgos
 
 local PLACE_ID = game.PlaceId
